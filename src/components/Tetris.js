@@ -6,8 +6,8 @@ import { createStage, checkCollision } from '../gameHelpers';
 import { StyledTetrisWrapper, StyledTetris } from './styles/StyledTetris';
 
 // Custom Hooks
-import { useInterval } from '../hooks/useInterval';
 import { usePlayer } from '../hooks/usePlayer';
+import { useInterval } from '../hooks/useInterval';
 import { useStage } from '../hooks/useStage';
 import { useGameStatus } from '../hooks/useGameStatus';
 
